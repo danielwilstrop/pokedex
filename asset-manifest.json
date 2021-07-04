@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/pokedex/static/css/main.fed8a5f9.chunk.css",
+    "main.js": "/pokedex/static/js/main.bb1f9277.chunk.js",
+    "main.js.map": "/pokedex/static/js/main.bb1f9277.chunk.js.map",
+    "runtime-main.js": "/pokedex/static/js/runtime-main.c769caeb.js",
+    "runtime-main.js.map": "/pokedex/static/js/runtime-main.c769caeb.js.map",
+    "static/js/2.d9673096.chunk.js": "/pokedex/static/js/2.d9673096.chunk.js",
+    "static/js/2.d9673096.chunk.js.map": "/pokedex/static/js/2.d9673096.chunk.js.map",
+    "index.html": "/pokedex/index.html",
+    "static/css/main.fed8a5f9.chunk.css.map": "/pokedex/static/css/main.fed8a5f9.chunk.css.map",
+    "static/js/2.d9673096.chunk.js.LICENSE.txt": "/pokedex/static/js/2.d9673096.chunk.js.LICENSE.txt",
+    "static/media/bug.1b2c4259.webp": "/pokedex/static/media/bug.1b2c4259.webp",
+    "static/media/index.css": "/pokedex/static/media/dex_background.fc14965b.jpeg",
+    "static/media/dragon.3d635c1d.webp": "/pokedex/static/media/dragon.3d635c1d.webp",
+    "static/media/electric.d5a6ca1f.webp": "/pokedex/static/media/electric.d5a6ca1f.webp",
+    "static/media/fairy.0b6d5022.webp": "/pokedex/static/media/fairy.0b6d5022.webp",
+    "static/media/fire.fcbbf57c.webp": "/pokedex/static/media/fire.fcbbf57c.webp",
+    "static/media/flying.75062c1a.webp": "/pokedex/static/media/flying.75062c1a.webp",
+    "static/media/ghost.ff326ea7.webp": "/pokedex/static/media/ghost.ff326ea7.webp",
+    "static/media/grass.5b4b93b2.webp": "/pokedex/static/media/grass.5b4b93b2.webp",
+    "static/media/ground.b69d3cd5.webp": "/pokedex/static/media/ground.b69d3cd5.webp",
+    "static/media/ice.d5fe9ce1.webp": "/pokedex/static/media/ice.d5fe9ce1.webp",
+    "static/media/loading-arrow.dd29210f.gif": "/pokedex/static/media/loading-arrow.dd29210f.gif",
+    "static/media/normal.90a95003.webp": "/pokedex/static/media/normal.90a95003.webp",
+    "static/media/poison.7cb3461f.webp": "/pokedex/static/media/poison.7cb3461f.webp",
+    "static/media/psychic.bc098f75.webp": "/pokedex/static/media/psychic.bc098f75.webp",
+    "static/media/rock.51daeec9.webp": "/pokedex/static/media/rock.51daeec9.webp",
+    "static/media/water.ae63a167.webp": "/pokedex/static/media/water.ae63a167.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c769caeb.js",
+    "static/js/2.d9673096.chunk.js",
+    "static/css/main.fed8a5f9.chunk.css",
+    "static/js/main.bb1f9277.chunk.js"
+  ]
+}
