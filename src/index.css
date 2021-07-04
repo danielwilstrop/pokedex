@@ -1,0 +1,379 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Carter One', cursive;
+}
+
+/* Global */
+
+/* footer/contact */
+.logos,
+.copyright {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.pad {
+  padding: 1.1rem;
+}
+
+.copyright {
+  margin: 1rem;
+  margin-bottom: -1rem;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+/* Dex-List */
+
+.dex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('./resources/dex_background.jpeg');
+  z-index: 1;
+}
+
+.dex-list-entry {
+  max-width: 30vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(243, 128, 128, 0.8);
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+.dex-list-entry h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.9rem;
+}
+
+@media only screen and (max-device-width: 712px) {
+  .dex-list-entry {
+    max-width: 40vw;
+  }
+
+  .dex-list-entry h3 {
+    font-size: 1.6rem;
+  }
+}
+
+.dex-list-entry img {
+  height: 80%;
+  width: auto;
+  margin-bottom: 0;
+}
+
+.dex-list-entry h3::first-letter {
+  text-transform: capitalize;
+}
+
+.dex-list-entry button {
+  margin-bottom: 1rem;
+  text-align: center;
+  border-radius: 4px;
+  line-height: 22px;
+}
+
+.pagination {
+  text-align: center;
+  color: white;
+}
+
+.loading {
+  text-align: center;
+}
+
+.pages {
+  margin: 1rem;
+}
+
+.dex-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dex-heading h3 {
+  color: rgba(243, 128, 128, 0.8);
+}
+
+.dex-heading span {
+  padding-left: 20px;
+}
+
+/* Dex-modal */
+
+.dex-entry {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dex-entry h4 {
+  text-transform: capitalize;
+  margin-top: 2rem;
+}
+
+.type-image {
+  max-height: 2vh;
+  margin-left: 0.7rem;
+  margin-right: 0.2rem;
+}
+
+.types {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+}
+
+.modal-btn {
+  margin: 1rem;
+}
+
+/* filter form */
+
+.search-form {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1.1rem;
+}
+
+/* types modal */
+
+.types-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  margin: auto 30%;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.types-img {
+  margin-left: -1rem;
+}
+
+/* Error component */
+
+.error {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('./resources/dex_background.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  color: antiquewhite;
+  text-align: center;
+  overflow: hidden;
+  justify-content: space-around;
+}
+
+/* home page */
+
+.home {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('./resources/dex_background.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: calc(100vh - 56px);
+  width: 100vw;
+  color: antiquewhite;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  height: 30vh;
+  margin-bottom: -4rem;
+}
+
+.home p {
+  max-width: 60vw;
+}
+
+@media only screen and (max-device-width: 712px) {
+  .home p {
+    max-width: 95vw;
+  }
+}
+
+.num {
+  color: rgb(99, 111, 218);
+  font-size: 1.3em;
+}
+
+.load-animation {
+  position: absolute;
+  z-index: 99999;
+  display: flex;
+  flex-direction: column;
+  animation: dissapear 3s ease-in 5s forwards;
+  transition: all 1s ease;
+}
+
+.pikachu {
+  height: 250px;
+  margin-right: 2rem;
+}
+
+.speech-bubble {
+  width: 250px;
+  margin-left: 1rem;
+}
+
+@media only screen and (max-device-width: 712px) {
+  .speech-bubble {
+    margin-left: 1rem;
+    margin-bottom: -2rem;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+}
+
+@keyframes dissapear {
+  to {
+    transform: translateY(-3000px);
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+}
+
+.load-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  background-color: rgba(0, 0, 0, 0.9);
+  animation: dissapear 0s ease-in 5s forwards;
+  z-index: 10;
+}
+
+.hide {
+  display: none;
+}
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 0.9rem;
+}
+
+.btn-wrapper button {
+  margin: 0.4rem;
+}
+
+/* Auth forms */
+
+.my-card {
+  margin-top: 30px;
+}
+
+.auth-card {
+  padding: 20px;
+  text-align: center;
+  max-width: 350px;
+  margin: 10px auto;
+}
+
+.input-field input[type='text']:focus {
+  border-bottom: 1px solid #ff5722 !important;
+  box-shadow: 0 1px 0 0 #ff5722 !important;
+}
+
+.input-field input[type='password']:focus {
+  border-bottom: 1px solid #ff5722 !important;
+  box-shadow: 0 1px 0 0 #ff5722 !important;
+}
+
+h5 {
+  text-shadow: 1px 1px rgb(51, 69, 235);
+}
+
+.background {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('./resources/dex_background.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: calc(100vh - 56px);
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* battle page */
+
+.battle-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.battle-page h3 {
+  text-transform: capitalize;
+}
+
+.team {
+  display: flex;
+  text-align: center;
+  text-transform: capitalize;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  max-height: 30vh;
+  overflow-y: scroll;
+}
+
+.team-entry {
+  max-width: 25vw;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(243, 128, 128, 0.8);
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+.battle-screen {
+  border: 2px dotted black;
+  height: 80vh;
+  width: 98vw;
+  margin: 1rem;
+}
